@@ -4,6 +4,10 @@ description: Basic information about CypherBabel Index products.
 
 # CBI Indices
 
+## Introduction
+
+As a financial data service provider, CBI is the core and "genesis block" of CypherBabel. Besides official indices products, CBI offers a DApp for users to build their own crypto assets indices. Valuing the spirit of blockchain and Web3.0, CBI provides tools to give the power of creating financial products back to each participant in Web3.0. CBI encapsulates a set of complex index calculation methodologies so that the users only need to decide the constituents of their indices based on their understanding of the market. CBI expects an increasing number of professional users to participate in the CBI DAO to improve and diversify the index methodologies and tools and build more effective indices for all Web3.0 users. Investors in the CBI community pay attention to CBI indices and make investments accordingly. The best performance index will be favored the most in the community as a sign of the community's involvement.
+
 ## Resolutions and Timestamps
 
 ### Time Window Resolutions
