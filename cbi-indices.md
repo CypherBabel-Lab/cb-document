@@ -39,8 +39,6 @@ All metric timestamps are in UTC and always refer to the start of an interval.
 
 For examples:
 
-* **Monthly** time window resolution: `2022-10-01` : Includes data from`2022-10-01 00:00 UTC` to `2022-10-31 23:59 UTC` (i.e. Oct 2022)
-* **Weekly** time window resolution: `2022-10-10` : Includes data from `2022-10-10 00:00 UTC` to `2019-05-19 23:59 UTC` (i.e. Week 20)
-* **Daily** resolution: `2019-05-13`--> Includes data from`2019-05-13 00:00 UTC` to `2019-05-13 23:59 UTC`
-* **Hourly** resolution: `2019-05-13 10:00 UTC` --> Includes data from`2019-05-13 10:00 UTC` to `2019-05-13 10:59 UTC`
-* **10 Min** resolution: `2019-05-13 10:20 UTC` --> Includes data from `2019-05-13 10:20 UTC` to `2019-05-13 10:29 UTC`
+* **Monthly** time window resolution: `2022-10-01` : Includes data from`2022-10-01 00:00 UTC` to `2022-10-31 23:59 UTC` (i.e. Oct 2022).
+* **Daily** time window resolution: `2022-10-01` : Includes data from`2022-10-01 00:00 UTC` to `2022-10-01 23:59 UTC`
+* **Hourly** resolution: `2022-10-01 08:00 UTC` : Includes data from`2022-10-01 08:00 UTC` to `2022-10-01 08:59 UTC`
