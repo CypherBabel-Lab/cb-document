@@ -45,3 +45,24 @@
 * Reorganization of the repository.
 * ICRC <> ERC20 module.
 * Update of ERC20 smart contract.
+
+## BitoBridge  (28 June 2024)
+
+### Development
+
+* API of Target chain gas fee estimation.
+* TestBITO claim function.
+* BTC transactions update function.
+* Event record function.
+* Update target chain gas fee function.
+* Retry function for failures when not transactional.
+* Internet Identity integration.
+* Bitcoin <> ERC20 bridging function.
+* Protocol fee function.
+* Router API activation.
+* Bitcoin canister.
+
+### Optimizations
+
+* Add cache for the target chain gas fee.
+* ICRC <> ERC20 function.
