@@ -42,3 +42,25 @@
 * BTC bridging tests.
 * ICRC bridging tests.
 * BITO faucet tests.
+
+## BitoBridge  (19 July 2024)
+
+### Features
+
+* Statistics module based on Minter's records for testnet engagement.
+
+### Optimizations
+
+* Integrate Google Analytics to monitor DApp's data.
+* Update all canisters and smart contracts for the Testnet Engagement Campaign.
+* Remove the skeleton loading of the wallet balance when it is not logged in.
+* Detailing the transaction status and displays in the history tables.
+* The history table changes as the target chain varies.
+* Automatically reload wallet balance after a bridging operation.
+
+### Bugs
+
+* Max balance error when bridging out.
+* &#x20;Sometimes, there is no response when clicking to fetch gas.
+* The bridging process stucks at step 5 when using Internet Identity to bridge to EVM chains.
+
