@@ -62,5 +62,5 @@
 
 * Max balance error when bridging out.
 * &#x20;Sometimes, there is no response when clicking to fetch gas.
-* The bridging process stucks at step 5 when using Internet Identity to bridge to EVM chains.
+* The bridging process stucks in step 5 when using Internet Identity to bridge to EVM chains.
 
