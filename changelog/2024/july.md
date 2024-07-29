@@ -62,5 +62,24 @@
 
 * Max balance error when bridging out.
 * &#x20;Sometimes, there is no response when clicking to fetch gas.
-* The bridging process stucks in step 5 when using Internet Identity to bridge to EVM chains.
+* The bridging process is stuck in step 5 when using Internet Identity to bridge to EVM chains.
+
+## BitoBridge  (26 July 2024)
+
+### Features
+
+* Add statistics of the BitoBridge engagement campaign.
+* Integrated StratoVM as a new supported blockchain.
+
+### Optimizations
+
+* Optimize the history records of bridging transactions from EVM to IC.
+* Add pagination to history tables.
+* Optimize the point calculation method of the BitoBridge engagement campaign.
+* Optimize the Bitcoin wallet's balance display by adding available and unavailable balances.
+* Add a retry button for the order confirmation window.
+
+### Bugs
+
+* Queue processing error in the Bitcoin Canister.
 
