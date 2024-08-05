@@ -1,6 +1,6 @@
 # August
 
-## BitoBridge  (2nd August 2024)
+## BitoBridge  (2 August 2024)
 
 ### Features
 
