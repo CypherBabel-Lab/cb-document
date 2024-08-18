@@ -33,3 +33,20 @@
 
 
 
+## BitoBridge  (16 August 2024)
+
+### Features
+
+* Develop relayer\_evm of BitoBridge V2.
+* Develop frontend bridging logic of BitoBridge V2.
+* Integrate ICP Bridge in BitoBridge V2.
+* Integrate history records of transactions in BitoBridge V2.
+
+### Optimizations
+
+* Optimize the logic of the Hub to accommodate relayer\_evm.
+* Newly designed UI for BitoBridge V2.
+
+### Tests
+
+* Through testing of canisters' core logics in BitoBridge V2.
