@@ -50,3 +50,30 @@
 ### Tests
 
 * Through testing of canisters' core logics in BitoBridge V2.
+
+##
+
+## BitoBridge  (23 August 2024)
+
+### Features
+
+* Add fee logic in the Hub canister in V2.
+* Add cache event in V2.
+* Add a transaction details modal on the frontend in V2.
+* Add a cache for claim history on the frontend in V2.
+* Add relayer\_btc canister in V2.
+* Support bridging between any two blockchains besides BTC in V2.
+* Support bridging from BTC to other blockchains in V2.
+
+### Optimizations
+
+* Optimize core logic in V2.
+* Optimize the history table on the frontend in V2.
+* Unify the pop-up window modal on the front end in V2.
+
+### Tests
+
+* Fee logic.
+* Claim history.
+* The core logic for bridging.
+
