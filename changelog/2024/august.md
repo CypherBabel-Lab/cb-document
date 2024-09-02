@@ -63,7 +63,7 @@
 * Add a cache for claim history on the frontend in V2.
 * Add relayer\_btc canister in V2.
 * Support bridging between any two blockchains besides BTC in V2.
-* Support bridging from BTC to other blockchains in V2.
+* Support bridging from Bitcoin blockchain to other blockchains in V2.
 
 ### Optimizations
 
@@ -77,3 +77,28 @@
 * Claim history.
 * The core logic for bridging.
 
+
+
+## BitoBridge  (30 August 2024)
+
+### Features
+
+* Support bridging from other blockchains to Bitcoin blockchain in V2.
+* Add history filters for all transactions to the hub canister.
+* Add a pause function to the hub canister.
+* Add a unique logic for IC <=> Bitcoin blockchain bridging.
+* Add a protocol fee ledger to the hub canister.
+* Add a unique logic for IC <=> Bitcoin blockchain protocol\_fee.
+
+### Optimizations
+
+* Optimize mint\_proof's failure logic.
+* Optimize relayer\_btc canister's transaction logic for simultaneous submissions to multiple blockchains.
+* Optimize relayer\_btc canister's logic for processing a correct tx\_id after an incorrect tx\_id. &#x20;
+* Optimize the logic for RPC node timeout. &#x20;
+
+### Tests
+
+* Core logic unit tests.
+* User interaction simulation tests.
+* Integration test.
