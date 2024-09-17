@@ -26,3 +26,24 @@
 * **Internet Identity Login Error**: Corrected the invalid login issue with Internet Identity.
 * **Balance Loading Error**: Fixed the error where balance loading failed.
 
+## BitoBridge  (13 September 2024)
+
+### New Features
+
+* **Transaction Link in Record Details**: Added direct links to transactions within record details for easier access and verification.
+* **Display of tx\_id on Source Chain**: Implemented the display of transaction IDs (tx\_id) on the source chain to enhance transparency and tracking.&#x20;
+
+### **Optimizations**
+
+* **Frontend Cache Management**: Improved performance by promptly clearing the local cache on the frontend, ensuring users receive the most up-to-date information.
+* **Stable Memory Usage in relayer\_evm Canister**: Updated the logic to save data to stable memory during canister upgrades and retrieve it afterward, preventing data loss and maintaining cache integrity.
+* **Enhanced Log Retrieval in relayer\_evm Canister**: Added the ability to fetch eth\_logs for specified blocks, enabling recovery of user data in cases where data might be lost.
+* **Optimized Cache Submission in relayer\_evm Canister**: Improved logic to stop submitting cache to the hub once it has been confirmed that the hub already possesses the cache, reducing unnecessary operations.
+* **Primary Key Modification in relayer\_btc Canister**: Modified the primary key and implemented the “tx\_id + address” logic, aligning with the agreed-upon standards for better data management and security.
+
+### **Bug Fixes**
+
+* **Unisat Signing Rejection Handling**: Fixed error handling when Unisat signing is rejected, ensuring the system responds appropriately without crashing.
+* **get\_histories Instruction Limit in Hub Canister**: Resolved the issue where the get\_histories function exceeded instruction limits, which was causing failures in retrieving user histories.
+* **Campaign Points Synchronization Error**: Corrected the error in campaign points calculation caused by the sync\_histories instruction limit, ensuring accurate point tracking.
+* **Invalid Resubmission in relayer\_btc Canister**: Fixed the issue where invalid resubmissions were allowed, enhancing the integrity of transaction processing.
