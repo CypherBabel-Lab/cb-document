@@ -47,3 +47,13 @@
 * **get\_histories Instruction Limit in Hub Canister**: Resolved the issue where the get\_histories function exceeded instruction limits, which was causing failures in retrieving user histories.
 * **Campaign Points Synchronization Error**: Corrected the error in campaign points calculation caused by the sync\_histories instruction limit, ensuring accurate point tracking.
 * **Invalid Resubmission in relayer\_btc Canister**: Fixed the issue where invalid resubmissions were allowed, enhancing the integrity of transaction processing.
+
+## BitoBridge  (20 September 2024)
+
+### New Features
+
+• **Blockchain Integration**: Added support for the Polygon Amoy Testnet.
+
+• **Point Parameter Update**: Set a new credit factor of 3 for the Polygon Amoy Testnet as part of the Testnet Engagement Campaign.
+
+• **BITOP Contracts**: Ongoing development and testing of BITOP contracts on both ICP and Polygon networks.
