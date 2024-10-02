@@ -52,8 +52,25 @@
 
 ### New Features
 
-• **Blockchain Integration**: Added support for the Polygon Amoy Testnet.
+* **Blockchain Integration**: Added support for the Polygon Amoy Testnet.
+* **Point Parameter Update**: Set a new credit factor of 3 for the Polygon Amoy Testnet as part of the Testnet Engagement Campaign.
+* **BITOP Contracts**: Ongoing development and testing of BITOP contracts on both ICP and Polygon networks.
 
-• **Point Parameter Update**: Set a new credit factor of 3 for the Polygon Amoy Testnet as part of the Testnet Engagement Campaign.
+## BitoBridge  (27 September 2024)
 
-• **BITOP Contracts**: Ongoing development and testing of BITOP contracts on both ICP and Polygon networks.
+### New Features
+
+* **BITO Points Canister Deployment**: Deployed the BITO Points canister on the Internet Computer (IC) network.
+* **TestBTC Canister Monitor**: Added a monitoring system for the testBTC canister on the ICP network.
+
+### Optimizations
+
+* **Atomicity for Hub Canister**: Ensured atomicity for the Hub Canister when the ‘to\_chain’ is the Bitcoin blockchain, improving transaction consistency.
+* **Data Length Verification**: Implemented verification for ‘data\_length’ to prevent potential malicious behaviors.
+* **Ethereum Confirmations**: Changed Ethereum blockchain confirmations from ‘latest’ to ‘safe’ for enhanced security.
+* **Subaccount Handling**: Introduced a process to generate a new account for the ‘subaccount’ in the Hub canister before calling ‘approve’.
+
+### Bug Fixes
+
+* **Remove ‘from\_address’**: Removed the ‘from\_address’ parameter from the Bitcoin Canister to resolve associated issues.
+* **Points System Fix**: Fixed the ‘data too long’ error in the points system for smoother operations.
