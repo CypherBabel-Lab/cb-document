@@ -10,3 +10,4 @@
     * [July](changelog/2024/july.md)
     * [August](changelog/2024/august.md)
     * [September](changelog/2024/september.md)
+    * [October](changelog/2024/october.md)
