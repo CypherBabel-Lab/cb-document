@@ -27,5 +27,15 @@
 
 * **Wallet Manager UX optimization:** Optimized the switch among supported blockchains and wallets.
 
+## BitoBridge  (15 November 2024)
+
+### New Features
+
+* **Base Blockchain Integration:** Integrated Base blockchain in BitoBridge Testnet and Mainnet.
+
+### Optimizations
+
+* **History Table UI:** Optimized the appearance of the history table to show the data records better.&#x20;
+
 
 
