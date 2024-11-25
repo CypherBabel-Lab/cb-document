@@ -21,21 +21,36 @@
 
 ### New Features
 
-* **BNB Smart Chain Integration:** Integrated BNB Smart Chain in BitoBridge Testnet and Mainnet.
+* **BNB Smart Chain Integration:** Support for BNB Smart Chain was added on both Testnet and Mainnet.
 
 ### Optimizations
 
-* **Wallet Manager UX optimization:** Optimized the switch among supported blockchains and wallets.
+* **Wallet Manager UX:** Improved user experience for switching between supported blockchains and wallets.
 
 ## BitoBridge  (15 November 2024)
 
 ### New Features
 
-* **Base Blockchain Integration:** Integrated Base blockchain in BitoBridge Testnet and Mainnet.
+* **Base Blockchain Integration**: Integrated Base blockchain into both Testnet and Mainnet.
 
 ### Optimizations
 
-* **History Table UI:** Optimized the appearance of the history table to show the data records better.&#x20;
+* **History Table UI**: Enhanced the history table design for better data visibility and readability.
 
+## BitoBridge  (22 November 2024)
 
+### New Features
 
+* **SNEED Token Support:** Enabled SNEED token on the Mainnet.
+* **Bitget Wallet Integration:** Added support for Bitget wallet across EVM blockchains, Bitcoin, and Sui.
+* **Additional Blockchain Integrations:**
+  * Mainnet: Polygon and Arbitrum.
+  * Testnet: Berachain.
+
+### Optimizations
+
+* **History Table UI:** Further optimized the history table for improved data presentation.&#x20;
+
+### Bug Fixes
+
+* **Sui Smart Contract:** Resolved an issue in the helper smart contract on Sui.
