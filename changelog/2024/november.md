@@ -16,3 +16,16 @@
 * **Transaction Failure Resolution**: Fixed an issue where cross-chain transactions occasionally failed during network congestion periods.
 * **Synchronization Error**: Resolved a bug causing delays in balance updates after completing a bridging transaction.
 * **UI Glitches**: Corrected display issues on the transaction history page where some entries were not showing correctly; Fixed a problem where the network selection dropdown was unresponsive on certain browsers.
+
+## BitoBridge  (8 November 2024)
+
+### New Features
+
+* **BNB Smart Chain Integration:** Integrated BNB Smart Chain in BitoBridge Testnet and Mainnet.
+
+### Optimizations
+
+* **Wallet Manager UX optimization:** Optimized the switch among supported blockchains and wallets.
+
+
+
