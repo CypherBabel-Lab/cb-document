@@ -54,3 +54,23 @@
 ### Bug Fixes
 
 * **Sui Smart Contract:** Resolved an issue in the helper smart contract on Sui.
+
+## BitoBridge  (29 November 2024)
+
+### New Features
+
+* **ICRC1 Token Standard Support:** Added support for the ICRC1 token standard, enhancing interoperability.
+* **WindogeXP Token Support:** Enabled support for the WindogeXP token on the Mainnet, expanding token compatibility.
+* **ICRC28 Support**: Integrated ICRC28 standard at the backend for improved functionality and future extensibility.
+* **Additional Blockchain Integrations:**
+  * Mainnet: Added support for Optimism.
+  * Testnet: Integrated Optimism, enabling testing and development compatibility.
+
+### Optimizations
+
+* **Wallet Connection Logic:** Removed the requirement to connect an Internet Computer (IC) wallet to use the bridge, streamlining the user experience.
+* **Wallet Manager Initialization**: Improved the initialization logic for the wallet manager, ensuring faster and more reliable wallet operations.
+
+### Bug Fixes
+
+* **Stable Memory Storage**: Modified some data to be stored in stable memory and provided a data migration API to address the issue of excessive instruction consumption during upgrades.
