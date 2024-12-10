@@ -12,3 +12,4 @@
     * [September](changelog/2024/september.md)
     * [October](changelog/2024/october.md)
     * [November](changelog/2024/november.md)
+    * [December](changelog/2024/december.md)
