@@ -10,7 +10,7 @@
 
 * **Visual Interfaces**: Progress on designing intuitive and user-friendly interfaces to enhance player experience and engagement.
 
-## 13 December 2024 - Tyche & Bitomni Development Update
+## 13 December 2024 - Tyche & BitoBridge Development Update
 
 ### Features
 
@@ -24,4 +24,10 @@
 * **Tyche UI Enhancements**: Upgraded icons, hero area, and logo for a more polished and user-friendly experience.
 * **Bitomni Website Update**: Revamped the official Bitomni website, with an updated narrative to better reflect our vision and progress.
 
-###
+## 20 December 2024 - Tyche Development Update
+
+### Features
+
+* **Leaderboard**: Introduced a leaderboard to rank users based on their $BITOP holdings.
+* **Sui & bitoICP Lotto**: Added two new lottos featuring Sui and bitoICP as rewards.
+* **Statistics Panel**: Implemented a statistics panel to display key data and insights for users.
