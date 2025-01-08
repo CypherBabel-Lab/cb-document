@@ -36,10 +36,10 @@
 
 ### Features
 
-* **Ticket status cache: Stored the status of the tickets after the draw to facilitate the players' operation.**
-* **Sui Wallet and OKX Web3 Wallet Integrations**: Integrated Sui Wallet and OKX Web3 Wallet to enhance players' experiences.
-* Instant Notification Tag: Added notifications at the top to display the latest ticket purchase and the coming draw.
+* **Ticket Status Cache**: The system now stores ticket statuses after each draw, making it easier for players to track results and manage their participation.
+* **Sui Wallet & OKX Web3 Wallet Integrations**: Added support for Sui Wallet and OKX Web3 Wallet, improving accessibility and the overall user experience.
+* **Instant Notification Tag**: Introduced a notification banner at the platform's top to display recent ticket purchases and alert users about upcoming draws.
 
 ### Bug Fixes
 
-* **Display glitches: Page refreshing and animations of digits in the statistic panel.**
+* **Display Glitches**: Resolved page refresh issues and improved digit animations in the statistics panel for smoother visuals.
