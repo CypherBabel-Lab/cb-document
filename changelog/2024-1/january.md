@@ -57,3 +57,18 @@
 ### Updates
 
 * **USDC Prize Pool**: Removed the USDC Prize Pool.
+
+## 27 January 2025 - Tyche Development Update
+
+### Features
+
+* **Coin Toss**: Introduced a mini-game where players can bet on the outcome of a coin flip.
+
+### Optimizations
+
+* **Mobile Layout**: Optimized the Coin Toss game for a better mobile experience.
+* **Animations**: Added animations for balance changes and coin toss results.
+
+### Updates
+
+* **Grand Prize History**: Implemented a record system to track Grand Prize winners and claim statuses.
