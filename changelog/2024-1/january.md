@@ -41,3 +41,19 @@
 ### Updates
 
 * **Tyche Integration**: Added a link and basic information about Tyche for easier access.
+
+## 17 January 2025 - Tyche Development Update
+
+### Features
+
+* **Big or Small**: Introduced a mini-game where players can bet on big or small numbers.
+* **Token Balance Display**: Added a feature to show the balance of supported tokens in mini-games.
+* **Friend Referral**: Enabled a referral system allowing players to invite friends and earn rewards.
+
+### Optimizations
+
+* **Data Query Efficiency**: Adjusted the frequency of data queries for tables and statistics to improve performance.
+
+### Updates
+
+* **USDC Prize Pool**: Removed the USDC Prize Pool.
