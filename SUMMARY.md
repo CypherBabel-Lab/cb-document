@@ -15,3 +15,4 @@
     * [December](changelog/2024/december.md)
   * [2025](changelog/2024-1/README.md)
     * [January](changelog/2024-1/january.md)
+    * [February](changelog/2024-1/february.md)
