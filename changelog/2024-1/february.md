@@ -25,6 +25,28 @@
 
 ### Features
 
+* Expanded Protocol Coverage: Added initial support for an _experimental token protocol_, allowing BitoIndexer to recognize custom tokens minted on Bitcoin via advanced scripts.
+* Search API: Exposed a /search endpoint for public queries, returning transaction data by block range or address.
+
+### Updates
+
+* Documentation: Updated our README.md and wiki pages to outline the new search endpoint and how to configure advanced token parsing.
+* Continuous Integration (CI): Set up automated builds and basic unit tests running on each pull request to ensure stable merges.
+
+### Bugs Fixed
+
+* High Memory Usage: Identified and fixed a memory leak in the block processing loop where transaction buffers weren’t freed after parsing.
+* Incorrect Timestamp Conversion: Corrected an error that displayed block timestamps in UTC+0 but labeled them incorrectly as local time.
+
+### Optimizations
+
+* Index Write Efficiency: Batched writes to the underlying database, cutting overall block parsing time by around 25%.
+* Incremental Sync Mode: Implemented a partial sync mode, allowing newly joined nodes to index from the latest block backward without reprocessing the entire chain.
+
+## 22 February 2025 - BitoIndexer Development
+
+### Features
+
 * Meta-Protocol Decoder API: Created an extensible decoder interface that third-party developers can implement to add new Bitcoin meta-protocols without modifying core code.
 * Event Logging: Introduced an event log for each parsed transaction, which can be visualized in a dashboard (still in early alpha).
 
