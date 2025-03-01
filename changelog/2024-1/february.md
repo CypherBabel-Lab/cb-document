@@ -1,6 +1,6 @@
 # February
 
-## 08 February 2025 - BitoIndexer Development
+## 07 February 2025 - BitoIndexer Development
 
 ### Features
 
@@ -21,7 +21,7 @@
 * Caching: Added a small in-memory cache to reduce repeated decoding for frequently accessed meta-protocol transactions, improving average query speed by \~20%.
 * Thread Pool Tuning: Adjusted thread pool settings to better handle parallel block parsing (reduced idle CPU overhead).
 
-## 15 February 2025 - BitoIndexer Development
+## 14 February 2025 - BitoIndexer Development
 
 ### Features
 
@@ -43,7 +43,7 @@
 * Index Write Efficiency: Batched writes to the underlying database, cutting overall block parsing time by around 25%.
 * Incremental Sync Mode: Implemented a partial sync mode, allowing newly joined nodes to index from the latest block backward without reprocessing the entire chain.
 
-## 22 February 2025 - BitoIndexer Development
+## 21 February 2025 - BitoIndexer Development
 
 ### Features
 
@@ -64,3 +64,25 @@
 
 * Thread-Safe Queues: Rewrote the internal queue system to reduce lock contention, boosting throughput for high-volume block syncs.
 * Pruned Node Compatibility: Fine-tuned the code to work seamlessly with pruned Bitcoin nodes, saving disk space for smaller operators.
+
+## 28 February 2025 - BitoIndexer Development
+
+### Features
+
+* Real-Time Websocket Feed: Launched a websocket interface so dApps can subscribe to live updates of newly indexed blocks or meta-protocol transactions.
+* Backup/Restore Scripts: Added scripts for exporting the index DB to a file and restoring it, helping node operators migrate without re-indexing from scratch.
+
+### Updates
+
+* Public Beta Preparation: Finalized instructions for running BitoIndexer in a “beta” environment; published a short guide on hosting a public node.
+* Metrics Dashboard: Deployed a minimal metrics page showing index speed, memory usage, and the number of meta-protocol transactions processed.
+
+### Bugs Fixed
+
+* API Throttling: Fixed a bug where multiple rapid queries on the websocket feed could crash the server if queue buffers overflowed.
+* Tx Orphan Handling: Corrected a logic gap where orphan transactions (missing parent references) were being permanently ignored rather than queued for future resolution.
+
+### Optimizations
+
+* Indexing Pipeline: Streamlined the parsing pipeline, cutting average indexing latency for each block by an additional 15%.
+* DB Compaction: Implemented periodic compaction in the underlying database to reduce file size and improve query performance over time.
